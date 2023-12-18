@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+markers = [
+    "login: 登录",
+    "order:订单",
+    "register:注册"
+]

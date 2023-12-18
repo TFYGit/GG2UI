@@ -1,0 +1,207 @@
+【3276->2023-12-13 17:59:39,288-browser_actions.py-ERROR】 >>> 鼠标点击失败
+【3276->2023-12-13 17:59:39,288-browser_actions.py-ERROR】 >>> Message: element click intercepted: Element <span class="v-btn__content" data-no-activator="">...</span> is not clickable at point (430, 827). Other element would receive the click: <button data-v-27da76d3="" type="button" class="v-btn v-theme--light v-btn--density-default v-btn--rounded v-btn--size-default v-btn--variant-text submit enjoy" style="color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">...</button>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7D0064D02+56194]
+	(No symbol) [0x00007FF7CFFD04B2]
+	(No symbol) [0x00007FF7CFE776AA]
+	(No symbol) [0x00007FF7CFEC8763]
+	(No symbol) [0x00007FF7CFEC675D]
+	(No symbol) [0x00007FF7CFEC3F5C]
+	(No symbol) [0x00007FF7CFEC2D15]
+	(No symbol) [0x00007FF7CFEB687F]
+	(No symbol) [0x00007FF7CFEE5E7A]
+	(No symbol) [0x00007FF7CFEB6226]
+	(No symbol) [0x00007FF7CFEE6320]
+	(No symbol) [0x00007FF7CFF02786]
+	(No symbol) [0x00007FF7CFEE5C23]
+	(No symbol) [0x00007FF7CFEB4A45]
+	(No symbol) [0x00007FF7CFEB5AD4]
+	GetHandleVerifier [0x00007FF7D03DD5BB+3695675]
+	GetHandleVerifier [0x00007FF7D0436197+4059159]
+	GetHandleVerifier [0x00007FF7D042DF63+4025827]
+	GetHandleVerifier [0x00007FF7D00FF029+687785]
+	(No symbol) [0x00007FF7CFFDB508]
+	(No symbol) [0x00007FF7CFFD7564]
+	(No symbol) [0x00007FF7CFFD76E9]
+	(No symbol) [0x00007FF7CFFC8094]
+	BaseThreadInitThunk [0x00007FFC30E37034+20]
+	RtlUserThreadStart [0x00007FFC31302651+33]
+Traceback (most recent call last):
+  File "D:\selenium\GamsGo\common\browser_actions.py", line 38, in mouse_click
+    self.driver.find_element(*element).click()
+  File "D:\python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "D:\python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class="v-btn__content" data-no-activator="">...</span> is not clickable at point (430, 827). Other element would receive the click: <button data-v-27da76d3="" type="button" class="v-btn v-theme--light v-btn--density-default v-btn--rounded v-btn--size-default v-btn--variant-text submit enjoy" style="color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">...</button>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7D0064D02+56194]
+	(No symbol) [0x00007FF7CFFD04B2]
+	(No symbol) [0x00007FF7CFE776AA]
+	(No symbol) [0x00007FF7CFEC8763]
+	(No symbol) [0x00007FF7CFEC675D]
+	(No symbol) [0x00007FF7CFEC3F5C]
+	(No symbol) [0x00007FF7CFEC2D15]
+	(No symbol) [0x00007FF7CFEB687F]
+	(No symbol) [0x00007FF7CFEE5E7A]
+	(No symbol) [0x00007FF7CFEB6226]
+	(No symbol) [0x00007FF7CFEE6320]
+	(No symbol) [0x00007FF7CFF02786]
+	(No symbol) [0x00007FF7CFEE5C23]
+	(No symbol) [0x00007FF7CFEB4A45]
+	(No symbol) [0x00007FF7CFEB5AD4]
+	GetHandleVerifier [0x00007FF7D03DD5BB+3695675]
+	GetHandleVerifier [0x00007FF7D0436197+4059159]
+	GetHandleVerifier [0x00007FF7D042DF63+4025827]
+	GetHandleVerifier [0x00007FF7D00FF029+687785]
+	(No symbol) [0x00007FF7CFFDB508]
+	(No symbol) [0x00007FF7CFFD7564]
+	(No symbol) [0x00007FF7CFFD76E9]
+	(No symbol) [0x00007FF7CFFC8094]
+	BaseThreadInitThunk [0x00007FFC30E37034+20]
+	RtlUserThreadStart [0x00007FFC31302651+33]
+
+【15348->2023-12-13 18:00:38,432-browser_actions.py-ERROR】 >>> 鼠标点击失败
+【15348->2023-12-13 18:00:38,432-browser_actions.py-ERROR】 >>> Message: element click intercepted: Element <span class="v-btn__content" data-no-activator="">...</span> is not clickable at point (430, 827). Other element would receive the click: <button data-v-27da76d3="" type="button" class="v-btn v-theme--light v-btn--density-default v-btn--rounded v-btn--size-default v-btn--variant-text submit enjoy" style="color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">...</button>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7D0064D02+56194]
+	(No symbol) [0x00007FF7CFFD04B2]
+	(No symbol) [0x00007FF7CFE776AA]
+	(No symbol) [0x00007FF7CFEC8763]
+	(No symbol) [0x00007FF7CFEC675D]
+	(No symbol) [0x00007FF7CFEC3F5C]
+	(No symbol) [0x00007FF7CFEC2D15]
+	(No symbol) [0x00007FF7CFEB687F]
+	(No symbol) [0x00007FF7CFEE5E7A]
+	(No symbol) [0x00007FF7CFEB6226]
+	(No symbol) [0x00007FF7CFEE6320]
+	(No symbol) [0x00007FF7CFF02786]
+	(No symbol) [0x00007FF7CFEE5C23]
+	(No symbol) [0x00007FF7CFEB4A45]
+	(No symbol) [0x00007FF7CFEB5AD4]
+	GetHandleVerifier [0x00007FF7D03DD5BB+3695675]
+	GetHandleVerifier [0x00007FF7D0436197+4059159]
+	GetHandleVerifier [0x00007FF7D042DF63+4025827]
+	GetHandleVerifier [0x00007FF7D00FF029+687785]
+	(No symbol) [0x00007FF7CFFDB508]
+	(No symbol) [0x00007FF7CFFD7564]
+	(No symbol) [0x00007FF7CFFD76E9]
+	(No symbol) [0x00007FF7CFFC8094]
+	BaseThreadInitThunk [0x00007FFC30E37034+20]
+	RtlUserThreadStart [0x00007FFC31302651+33]
+Traceback (most recent call last):
+  File "D:\selenium\GamsGo\common\browser_actions.py", line 38, in mouse_click
+    self.driver.find_element(*element).click()
+  File "D:\python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "D:\python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class="v-btn__content" data-no-activator="">...</span> is not clickable at point (430, 827). Other element would receive the click: <button data-v-27da76d3="" type="button" class="v-btn v-theme--light v-btn--density-default v-btn--rounded v-btn--size-default v-btn--variant-text submit enjoy" style="color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">...</button>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7D0064D02+56194]
+	(No symbol) [0x00007FF7CFFD04B2]
+	(No symbol) [0x00007FF7CFE776AA]
+	(No symbol) [0x00007FF7CFEC8763]
+	(No symbol) [0x00007FF7CFEC675D]
+	(No symbol) [0x00007FF7CFEC3F5C]
+	(No symbol) [0x00007FF7CFEC2D15]
+	(No symbol) [0x00007FF7CFEB687F]
+	(No symbol) [0x00007FF7CFEE5E7A]
+	(No symbol) [0x00007FF7CFEB6226]
+	(No symbol) [0x00007FF7CFEE6320]
+	(No symbol) [0x00007FF7CFF02786]
+	(No symbol) [0x00007FF7CFEE5C23]
+	(No symbol) [0x00007FF7CFEB4A45]
+	(No symbol) [0x00007FF7CFEB5AD4]
+	GetHandleVerifier [0x00007FF7D03DD5BB+3695675]
+	GetHandleVerifier [0x00007FF7D0436197+4059159]
+	GetHandleVerifier [0x00007FF7D042DF63+4025827]
+	GetHandleVerifier [0x00007FF7D00FF029+687785]
+	(No symbol) [0x00007FF7CFFDB508]
+	(No symbol) [0x00007FF7CFFD7564]
+	(No symbol) [0x00007FF7CFFD76E9]
+	(No symbol) [0x00007FF7CFFC8094]
+	BaseThreadInitThunk [0x00007FFC30E37034+20]
+	RtlUserThreadStart [0x00007FFC31302651+33]
+
+【12616->2023-12-13 18:07:16,556-browser_actions.py-ERROR】 >>> 鼠标点击失败
+【12616->2023-12-13 18:07:16,556-browser_actions.py-ERROR】 >>> Message: element click intercepted: Element <button data-v-cae621a7="" type="button" class="v-btn v-theme--light v-btn--density-default v-btn--rounded v-btn--size-default v-btn--variant-text category-btn letter-big" style="color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">...</button> is not clickable at point (430, 827). Other element would receive the click: <button data-v-27da76d3="" type="button" class="v-btn v-theme--light v-btn--density-default v-btn--rounded v-btn--size-default v-btn--variant-text submit enjoy" style="color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">...</button>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7D0064D02+56194]
+	(No symbol) [0x00007FF7CFFD04B2]
+	(No symbol) [0x00007FF7CFE776AA]
+	(No symbol) [0x00007FF7CFEC8763]
+	(No symbol) [0x00007FF7CFEC675D]
+	(No symbol) [0x00007FF7CFEC3F5C]
+	(No symbol) [0x00007FF7CFEC2D15]
+	(No symbol) [0x00007FF7CFEB687F]
+	(No symbol) [0x00007FF7CFEE5E7A]
+	(No symbol) [0x00007FF7CFEB6226]
+	(No symbol) [0x00007FF7CFEE6320]
+	(No symbol) [0x00007FF7CFF02786]
+	(No symbol) [0x00007FF7CFEE5C23]
+	(No symbol) [0x00007FF7CFEB4A45]
+	(No symbol) [0x00007FF7CFEB5AD4]
+	GetHandleVerifier [0x00007FF7D03DD5BB+3695675]
+	GetHandleVerifier [0x00007FF7D0436197+4059159]
+	GetHandleVerifier [0x00007FF7D042DF63+4025827]
+	GetHandleVerifier [0x00007FF7D00FF029+687785]
+	(No symbol) [0x00007FF7CFFDB508]
+	(No symbol) [0x00007FF7CFFD7564]
+	(No symbol) [0x00007FF7CFFD76E9]
+	(No symbol) [0x00007FF7CFFC8094]
+	BaseThreadInitThunk [0x00007FFC30E37034+20]
+	RtlUserThreadStart [0x00007FFC31302651+33]
+Traceback (most recent call last):
+  File "D:\selenium\GamsGo\common\browser_actions.py", line 38, in mouse_click
+    self.driver.find_element(*element).click()
+  File "D:\python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "D:\python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-cae621a7="" type="button" class="v-btn v-theme--light v-btn--density-default v-btn--rounded v-btn--size-default v-btn--variant-text category-btn letter-big" style="color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">...</button> is not clickable at point (430, 827). Other element would receive the click: <button data-v-27da76d3="" type="button" class="v-btn v-theme--light v-btn--density-default v-btn--rounded v-btn--size-default v-btn--variant-text submit enjoy" style="color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">...</button>
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7D0064D02+56194]
+	(No symbol) [0x00007FF7CFFD04B2]
+	(No symbol) [0x00007FF7CFE776AA]
+	(No symbol) [0x00007FF7CFEC8763]
+	(No symbol) [0x00007FF7CFEC675D]
+	(No symbol) [0x00007FF7CFEC3F5C]
+	(No symbol) [0x00007FF7CFEC2D15]
+	(No symbol) [0x00007FF7CFEB687F]
+	(No symbol) [0x00007FF7CFEE5E7A]
+	(No symbol) [0x00007FF7CFEB6226]
+	(No symbol) [0x00007FF7CFEE6320]
+	(No symbol) [0x00007FF7CFF02786]
+	(No symbol) [0x00007FF7CFEE5C23]
+	(No symbol) [0x00007FF7CFEB4A45]
+	(No symbol) [0x00007FF7CFEB5AD4]
+	GetHandleVerifier [0x00007FF7D03DD5BB+3695675]
+	GetHandleVerifier [0x00007FF7D0436197+4059159]
+	GetHandleVerifier [0x00007FF7D042DF63+4025827]
+	GetHandleVerifier [0x00007FF7D00FF029+687785]
+	(No symbol) [0x00007FF7CFFDB508]
+	(No symbol) [0x00007FF7CFFD7564]
+	(No symbol) [0x00007FF7CFFD76E9]
+	(No symbol) [0x00007FF7CFFC8094]
+	BaseThreadInitThunk [0x00007FFC30E37034+20]
+	RtlUserThreadStart [0x00007FFC31302651+33]
+
