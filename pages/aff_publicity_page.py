@@ -4,7 +4,7 @@
 from common.browser_actions import Browser
 
 
-class AffPage(Browser):
+class AffPublicityPage(Browser):
 
     # aff页立即注册按钮
     register_button = ('')
