@@ -6,7 +6,7 @@ from common.browser_actions import Browser
 class PersonalCenterPage(Browser):
 
     # 昵称编辑按钮
-    editnickname_button = ('xpath', "(//span[text()='编辑'])[1]")
+    edit_nickname_button = ('xpath', "(//span[text()='编辑'])[1]")
 
     # 邮箱编辑按钮
-    editemail_button = ('xpath', "(//span[text()='编辑'])[2]")
+    edit_email_button = ('xpath', "(//span[text()='编辑'])[2]")

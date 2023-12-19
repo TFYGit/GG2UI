@@ -28,19 +28,19 @@ class TestFrontPage:
         front_page.goto()
         # 关闭session弹窗
         front_page.close_session_method()
-        time.sleep(2)
+        time.sleep(3)
         # 首页点击立即购买按钮拉起购买弹窗
         front_page.purchase_pop_up()
         time.sleep(3)
         # 点击支付弹窗关闭按钮
         front_page.close_pop()
-        time.sleep(2)
+        time.sleep(3)
         # 点击“+”拉起支付弹窗
         front_page.click_plus()
-        time.sleep(2)
+        time.sleep(3)
         # 点击支付弹窗关闭按钮
         front_page.close_pop()
-        time.sleep(2)
+        time.sleep(3)
         # 点击查看详情按钮跳转详情页
         front_page.details_page()
         time.sleep(8)
