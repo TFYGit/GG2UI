@@ -41,18 +41,18 @@ class PaymentListPage(Browser):
     def click_payment_button(self):
         self.mouse_click(self.payment_button)
 
-    # 美国节点支付列表选中第一个支付方式
+    # 支付列表选中第一个支付方式
     def us_payment_list_m1(self):
         self.mouse_click(self.payment_method1)
 
-    # 美国节点支付列表选中第二个支付方式
+    # 支付列表选中第二个支付方式
     def us_payment_list_m2(self):
         self.mouse_click(self.payment_method2)
 
-    # 美国节点支付列表选中第三个支付方式
+    # 支付列表选中第三个支付方式
     def us_payment_list_m3(self):
-        self.mouse_click(self.payment_method3)
+        self.mouse_slide_click(self.payment_method3)
 
-    # 美国节点支付列表选中第四个支付方式
+    # 支付列表选中第四个支付方式
     def us_payment_list_m4(self):
-        self.mouse_click(self.payment_method4)
+        self.mouse_slide_click(self.payment_method4)

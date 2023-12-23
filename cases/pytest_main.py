@@ -2,4 +2,4 @@
 # 时间：2022/6/4
 import pytest
 
-pytest.main(['-m=payment'])
+pytest.main(['-m=payment', '-n=2'])
