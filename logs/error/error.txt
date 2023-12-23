@@ -205,3 +205,249 @@ Stacktrace:
 	BaseThreadInitThunk [0x00007FFC30E37034+20]
 	RtlUserThreadStart [0x00007FFC31302651+33]
 
+【9912->2023-12-23 12:20:50,167-browser_actions.py-ERROR】 >>> 鼠标点击失败
+【9912->2023-12-23 12:20:50,167-browser_actions.py-ERROR】 >>> Message: element click intercepted: Element <button data-v-12f318bb="" type="button" class="v-btn v-theme--light v-btn--density-default v-btn--rounded v-btn--size-default v-btn--variant-text category-btn letter-big" style="color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">...</button> is not clickable at point (430, 657). Other element would receive the click: <div class="v-overlay__scrim"></div>
+  (Session info: chrome=120.0.6099.110)
+Stacktrace:
+	GetHandleVerifier [0x00007FF745D14D02+56194]
+	(No symbol) [0x00007FF745C804B2]
+	(No symbol) [0x00007FF745B276AA]
+	(No symbol) [0x00007FF745B78763]
+	(No symbol) [0x00007FF745B7675D]
+	(No symbol) [0x00007FF745B73F5C]
+	(No symbol) [0x00007FF745B72D15]
+	(No symbol) [0x00007FF745B6687F]
+	(No symbol) [0x00007FF745B95E7A]
+	(No symbol) [0x00007FF745B66226]
+	(No symbol) [0x00007FF745B96320]
+	(No symbol) [0x00007FF745BB2786]
+	(No symbol) [0x00007FF745B95C23]
+	(No symbol) [0x00007FF745B64A45]
+	(No symbol) [0x00007FF745B65AD4]
+	GetHandleVerifier [0x00007FF74608D5BB+3695675]
+	GetHandleVerifier [0x00007FF7460E6197+4059159]
+	GetHandleVerifier [0x00007FF7460DDF63+4025827]
+	GetHandleVerifier [0x00007FF745DAF029+687785]
+	(No symbol) [0x00007FF745C8B508]
+	(No symbol) [0x00007FF745C87564]
+	(No symbol) [0x00007FF745C876E9]
+	(No symbol) [0x00007FF745C78094]
+	BaseThreadInitThunk [0x00007FFF54067BD4+20]
+	RtlUserThreadStart [0x00007FFF55B6CE51+33]
+Traceback (most recent call last):
+  File "D:\pycharm\GG2UI\common\browser_actions.py", line 38, in mouse_click
+    self.driver.find_element(*element).click()
+  File "D:\python\Python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\python\Python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "D:\python\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-12f318bb="" type="button" class="v-btn v-theme--light v-btn--density-default v-btn--rounded v-btn--size-default v-btn--variant-text category-btn letter-big" style="color: rgb(255, 255, 255); caret-color: rgb(255, 255, 255);">...</button> is not clickable at point (430, 657). Other element would receive the click: <div class="v-overlay__scrim"></div>
+  (Session info: chrome=120.0.6099.110)
+Stacktrace:
+	GetHandleVerifier [0x00007FF745D14D02+56194]
+	(No symbol) [0x00007FF745C804B2]
+	(No symbol) [0x00007FF745B276AA]
+	(No symbol) [0x00007FF745B78763]
+	(No symbol) [0x00007FF745B7675D]
+	(No symbol) [0x00007FF745B73F5C]
+	(No symbol) [0x00007FF745B72D15]
+	(No symbol) [0x00007FF745B6687F]
+	(No symbol) [0x00007FF745B95E7A]
+	(No symbol) [0x00007FF745B66226]
+	(No symbol) [0x00007FF745B96320]
+	(No symbol) [0x00007FF745BB2786]
+	(No symbol) [0x00007FF745B95C23]
+	(No symbol) [0x00007FF745B64A45]
+	(No symbol) [0x00007FF745B65AD4]
+	GetHandleVerifier [0x00007FF74608D5BB+3695675]
+	GetHandleVerifier [0x00007FF7460E6197+4059159]
+	GetHandleVerifier [0x00007FF7460DDF63+4025827]
+	GetHandleVerifier [0x00007FF745DAF029+687785]
+	(No symbol) [0x00007FF745C8B508]
+	(No symbol) [0x00007FF745C87564]
+	(No symbol) [0x00007FF745C876E9]
+	(No symbol) [0x00007FF745C78094]
+	BaseThreadInitThunk [0x00007FFF54067BD4+20]
+	RtlUserThreadStart [0x00007FFF55B6CE51+33]
+
+【14680->2023-12-23 13:59:06,865-browser_actions.py-ERROR】 >>> 鼠标点击失败
+【14680->2023-12-23 13:59:06,865-browser_actions.py-ERROR】 >>> Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//label[@for='input-0'])[1]"}
+  (Session info: chrome=120.0.6099.110)
+Stacktrace:
+	GetHandleVerifier [0x00007FF745D14D02+56194]
+	(No symbol) [0x00007FF745C804B2]
+	(No symbol) [0x00007FF745B276AA]
+	(No symbol) [0x00007FF745B716D0]
+	(No symbol) [0x00007FF745B717EC]
+	(No symbol) [0x00007FF745BB4D77]
+	(No symbol) [0x00007FF745B95EBF]
+	(No symbol) [0x00007FF745BB2786]
+	(No symbol) [0x00007FF745B95C23]
+	(No symbol) [0x00007FF745B64A45]
+	(No symbol) [0x00007FF745B65AD4]
+	GetHandleVerifier [0x00007FF74608D5BB+3695675]
+	GetHandleVerifier [0x00007FF7460E6197+4059159]
+	GetHandleVerifier [0x00007FF7460DDF63+4025827]
+	GetHandleVerifier [0x00007FF745DAF029+687785]
+	(No symbol) [0x00007FF745C8B508]
+	(No symbol) [0x00007FF745C87564]
+	(No symbol) [0x00007FF745C876E9]
+	(No symbol) [0x00007FF745C78094]
+	BaseThreadInitThunk [0x00007FFF54067BD4+20]
+	RtlUserThreadStart [0x00007FFF55B6CE51+33]
+Traceback (most recent call last):
+  File "D:\pycharm\GG2UI\common\browser_actions.py", line 38, in mouse_click
+    self.driver.find_element(*element).click()
+  File "D:\python\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1251, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "D:\python\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//label[@for='input-0'])[1]"}
+  (Session info: chrome=120.0.6099.110)
+Stacktrace:
+	GetHandleVerifier [0x00007FF745D14D02+56194]
+	(No symbol) [0x00007FF745C804B2]
+	(No symbol) [0x00007FF745B276AA]
+	(No symbol) [0x00007FF745B716D0]
+	(No symbol) [0x00007FF745B717EC]
+	(No symbol) [0x00007FF745BB4D77]
+	(No symbol) [0x00007FF745B95EBF]
+	(No symbol) [0x00007FF745BB2786]
+	(No symbol) [0x00007FF745B95C23]
+	(No symbol) [0x00007FF745B64A45]
+	(No symbol) [0x00007FF745B65AD4]
+	GetHandleVerifier [0x00007FF74608D5BB+3695675]
+	GetHandleVerifier [0x00007FF7460E6197+4059159]
+	GetHandleVerifier [0x00007FF7460DDF63+4025827]
+	GetHandleVerifier [0x00007FF745DAF029+687785]
+	(No symbol) [0x00007FF745C8B508]
+	(No symbol) [0x00007FF745C87564]
+	(No symbol) [0x00007FF745C876E9]
+	(No symbol) [0x00007FF745C78094]
+	BaseThreadInitThunk [0x00007FFF54067BD4+20]
+	RtlUserThreadStart [0x00007FFF55B6CE51+33]
+
+【15352->2023-12-23 14:05:27,211-browser_actions.py-ERROR】 >>> 鼠标点击失败
+【15352->2023-12-23 14:05:27,211-browser_actions.py-ERROR】 >>> Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//label[@for='input-0'])[1]"}
+  (Session info: chrome=120.0.6099.110)
+Stacktrace:
+	GetHandleVerifier [0x00007FF745D14D02+56194]
+	(No symbol) [0x00007FF745C804B2]
+	(No symbol) [0x00007FF745B276AA]
+	(No symbol) [0x00007FF745B716D0]
+	(No symbol) [0x00007FF745B717EC]
+	(No symbol) [0x00007FF745BB4D77]
+	(No symbol) [0x00007FF745B95EBF]
+	(No symbol) [0x00007FF745BB2786]
+	(No symbol) [0x00007FF745B95C23]
+	(No symbol) [0x00007FF745B64A45]
+	(No symbol) [0x00007FF745B65AD4]
+	GetHandleVerifier [0x00007FF74608D5BB+3695675]
+	GetHandleVerifier [0x00007FF7460E6197+4059159]
+	GetHandleVerifier [0x00007FF7460DDF63+4025827]
+	GetHandleVerifier [0x00007FF745DAF029+687785]
+	(No symbol) [0x00007FF745C8B508]
+	(No symbol) [0x00007FF745C87564]
+	(No symbol) [0x00007FF745C876E9]
+	(No symbol) [0x00007FF745C78094]
+	BaseThreadInitThunk [0x00007FFF54067BD4+20]
+	RtlUserThreadStart [0x00007FFF55B6CE51+33]
+Traceback (most recent call last):
+  File "D:\pycharm\GG2UI\common\browser_actions.py", line 38, in mouse_click
+    self.driver.find_element(*element).click()
+  File "D:\python\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1251, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "D:\python\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//label[@for='input-0'])[1]"}
+  (Session info: chrome=120.0.6099.110)
+Stacktrace:
+	GetHandleVerifier [0x00007FF745D14D02+56194]
+	(No symbol) [0x00007FF745C804B2]
+	(No symbol) [0x00007FF745B276AA]
+	(No symbol) [0x00007FF745B716D0]
+	(No symbol) [0x00007FF745B717EC]
+	(No symbol) [0x00007FF745BB4D77]
+	(No symbol) [0x00007FF745B95EBF]
+	(No symbol) [0x00007FF745BB2786]
+	(No symbol) [0x00007FF745B95C23]
+	(No symbol) [0x00007FF745B64A45]
+	(No symbol) [0x00007FF745B65AD4]
+	GetHandleVerifier [0x00007FF74608D5BB+3695675]
+	GetHandleVerifier [0x00007FF7460E6197+4059159]
+	GetHandleVerifier [0x00007FF7460DDF63+4025827]
+	GetHandleVerifier [0x00007FF745DAF029+687785]
+	(No symbol) [0x00007FF745C8B508]
+	(No symbol) [0x00007FF745C87564]
+	(No symbol) [0x00007FF745C876E9]
+	(No symbol) [0x00007FF745C78094]
+	BaseThreadInitThunk [0x00007FFF54067BD4+20]
+	RtlUserThreadStart [0x00007FFF55B6CE51+33]
+
+【14100->2023-12-23 14:06:58,316-browser_actions.py-ERROR】 >>> 鼠标点击失败
+【14100->2023-12-23 14:06:58,316-browser_actions.py-ERROR】 >>> Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='iconfont icon-close close']"}
+  (Session info: chrome=120.0.6099.110)
+Stacktrace:
+	GetHandleVerifier [0x00007FF745D14D02+56194]
+	(No symbol) [0x00007FF745C804B2]
+	(No symbol) [0x00007FF745B276AA]
+	(No symbol) [0x00007FF745B716D0]
+	(No symbol) [0x00007FF745B717EC]
+	(No symbol) [0x00007FF745BB4D77]
+	(No symbol) [0x00007FF745B95EBF]
+	(No symbol) [0x00007FF745BB2786]
+	(No symbol) [0x00007FF745B95C23]
+	(No symbol) [0x00007FF745B64A45]
+	(No symbol) [0x00007FF745B65AD4]
+	GetHandleVerifier [0x00007FF74608D5BB+3695675]
+	GetHandleVerifier [0x00007FF7460E6197+4059159]
+	GetHandleVerifier [0x00007FF7460DDF63+4025827]
+	GetHandleVerifier [0x00007FF745DAF029+687785]
+	(No symbol) [0x00007FF745C8B508]
+	(No symbol) [0x00007FF745C87564]
+	(No symbol) [0x00007FF745C876E9]
+	(No symbol) [0x00007FF745C78094]
+	BaseThreadInitThunk [0x00007FFF54067BD4+20]
+	RtlUserThreadStart [0x00007FFF55B6CE51+33]
+Traceback (most recent call last):
+  File "D:\pycharm\GG2UI\common\browser_actions.py", line 38, in mouse_click
+    self.driver.find_element(*element).click()
+  File "D:\python\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1251, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "D:\python\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='iconfont icon-close close']"}
+  (Session info: chrome=120.0.6099.110)
+Stacktrace:
+	GetHandleVerifier [0x00007FF745D14D02+56194]
+	(No symbol) [0x00007FF745C804B2]
+	(No symbol) [0x00007FF745B276AA]
+	(No symbol) [0x00007FF745B716D0]
+	(No symbol) [0x00007FF745B717EC]
+	(No symbol) [0x00007FF745BB4D77]
+	(No symbol) [0x00007FF745B95EBF]
+	(No symbol) [0x00007FF745BB2786]
+	(No symbol) [0x00007FF745B95C23]
+	(No symbol) [0x00007FF745B64A45]
+	(No symbol) [0x00007FF745B65AD4]
+	GetHandleVerifier [0x00007FF74608D5BB+3695675]
+	GetHandleVerifier [0x00007FF7460E6197+4059159]
+	GetHandleVerifier [0x00007FF7460DDF63+4025827]
+	GetHandleVerifier [0x00007FF745DAF029+687785]
+	(No symbol) [0x00007FF745C8B508]
+	(No symbol) [0x00007FF745C87564]
+	(No symbol) [0x00007FF745C876E9]
+	(No symbol) [0x00007FF745C78094]
+	BaseThreadInitThunk [0x00007FFF54067BD4+20]
+	RtlUserThreadStart [0x00007FFF55B6CE51+33]
+
