@@ -10,7 +10,7 @@ from pages.front_page import FrontPage
 @pytest.mark.login
 class TestFrontPage:
 
-    def test_front_page(self, fixture):
+    def test_front_page_method1(self, fixture):
         """
         1、访问主页面
         2、关闭session弹窗

@@ -2,4 +2,4 @@
 # 时间：2022/6/4
 import pytest
 
-pytest.main(['-m=login'])
+pytest.main(['-m=payment'])

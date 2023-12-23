@@ -2,5 +2,6 @@
 markers = [
     "login: 登录",
     "order:订单",
-    "register:注册"
+    "register:注册",
+    "payment:支付"
 ]

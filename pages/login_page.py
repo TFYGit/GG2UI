@@ -5,6 +5,9 @@ from common.browser_actions import Browser
 
 class LoginPage(Browser):
 
+    # 登录站URL
+    login_url = ("https://account.gamsgo.com/Login")
+
     # 邮箱输入框
     mail_input = ('xpath', "//input[@placeholder='邮箱']")
 
@@ -36,7 +39,27 @@ class LoginPage(Browser):
     privacy_policy_button02 = ('xpath', "(//a[@href='https://gg2.gamsgo.cc/privacy-policy'])[2]")
 
     # 登录按钮
-    lgin_button = ('xpath', "//button[@type='button']")
+    login_button = ('xpath', "//button[@type='button']")
 
     # 左上角logo
     logo_button = ('xpath', "//div[@class='v-responsive__content']")
+
+    # 访问登录站
+    def goto(self):
+        self.visit(self.login_url)
+
+    # 输入账号
+    def mail_input_method(self):
+        self.input_content(self.mail_input, "ceshi221@gamsgo.xyz")
+
+    # 点击下一步按钮
+    def click_continue_button_method(self):
+        self.mouse_click(self.continue_button)
+
+    # 输入密码
+    def password_input_method(self):
+        self.input_content(self.password_input, "tfy12345")
+
+    # 点击登录按钮
+    def click_lgin_button(self):
+        self.mouse_click(self.login_button)

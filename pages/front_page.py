@@ -4,7 +4,7 @@ from common.browser_actions import Browser
 class FrontPage(Browser):
 
     # URL
-    frontPage_url = "https://gg2.gamsgo.cc/"
+    frontPage_url = "https://www.gamsgo.com/"
 
     # 右上角头像
     avatar_button = ('xpath', "(//button[@type='button'])[1]")
@@ -51,9 +51,20 @@ class FrontPage(Browser):
     # 订阅按钮
     subscription_button = ('xpath', "//span[text()='订阅']")
 
+    # 购买弹窗内的前往付款按钮
+    payment_button = ('xpath', "(//span[text()='前往付款'])[1]")
+
     # 访问首页
     def goto(self):
         self.visit(self.frontPage_url)
+
+    # 点击右上角头像
+    def click_avatar_button(self):
+        self.mouse_click(self.avatar_button)
+
+    # 点击登录按钮
+    def click_login_button(self):
+        self.mouse_click(self.login_button)
 
     # 关闭session弹窗
     def close_session_method(self):
@@ -90,4 +101,8 @@ class FrontPage(Browser):
     # 点击订阅按钮
     def click_subscription_button(self):
         self.mouse_click(self.subscription_button)
+
+    # 点击前往付款按钮
+    def click_payment_button(self):
+        self.mouse_click(self.payment_button)
 
