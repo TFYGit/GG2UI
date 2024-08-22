@@ -44,6 +44,15 @@ class LoginPage(Browser):
     # 左上角logo
     logo_button = ('xpath', "//div[@class='v-responsive__content']")
 
+    # 谷歌快捷登录按钮
+    google_button = ('xpath', "(//button[@type='button'])[1]")
+
+    # facebook快捷登录按钮
+    facebook_button = ('xpath', "(//button[@type='button'])[2]")
+
+    # kakao快捷登录按钮
+    kakao_button = ('xpath', "(//button[@type='button'])[3]")
+
     # 访问登录站
     def goto(self):
         self.visit(self.login_url)
@@ -63,3 +72,10 @@ class LoginPage(Browser):
     # 点击登录按钮
     def click_lgin_button(self):
         self.mouse_click(self.login_button)
+
+    # 点击谷歌快捷登录按钮
+    def click_google_button(self):
+        self.mouse_click(self.google_button)
+
+
+
