@@ -53,6 +53,24 @@ class LoginPage(Browser):
     # kakao快捷登录按钮
     kakao_button = ('xpath', "(//button[@type='button'])[3]")
 
+    # 谷歌账号输入框
+    google_email_input = ('xpath', "//input[@type='email']")
+
+    # 谷歌邮箱输入弹窗下一步按钮
+    next_button = ('xpath', "//span[text()='下一步']")
+
+    # 谷歌账号密码输入框
+    google_password_input = ('xpath', "//input[@type='password']")
+
+    # 元素加载完成
+    def load_complete(self):
+        self.wait_presence(self.google_button)
+        self.wait_presence(self.facebook_button)
+        self.wait_presence(self.google_email_input)
+        self.wait_presence(self.next_button)
+        self.wait_presence(self.google_password_input)
+        self.wait_presence(self.kakao_button)
+
     # 访问登录站
     def goto(self):
         self.visit(self.login_url)
@@ -76,6 +94,26 @@ class LoginPage(Browser):
     # 点击谷歌快捷登录按钮
     def click_google_button(self):
         self.mouse_click(self.google_button)
+
+    # 点击facebook快捷登录按钮
+    def click_facebook_button(self):
+        self.mouse_click(self.facebook_button)
+
+    # 点击kakao快捷登录按钮
+    def click_kakao_button(self):
+        self.mouse_click(self.kakao_button)
+
+    # 输入谷歌邮箱
+    def input_google_email(self):
+        self.input_content(self.google_email_input, "tfy125800@gmail.com")
+
+    # 输入谷歌邮箱密码
+    def input_google_password(self):
+        self.input_content(self.google_password_input, "tfy125800...")
+
+    # 点击下一步按钮
+    def click_next_button(self):
+        self.mouse_click(self.next_button)
 
 
 

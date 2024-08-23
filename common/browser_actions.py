@@ -47,7 +47,7 @@ class Browser:
     def mouse_slide_click(self, element):
         try:
             el = self.driver.find_element(*element)
-            el.location_once_scrolled_into_view
+            el.location_once_scrolled_into_view()
             el.click()
             log.info('鼠标点击正常')
         except Exception as e:
